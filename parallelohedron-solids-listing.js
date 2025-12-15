@@ -286,7 +286,7 @@ let pId = parseInt(searchParams.get("P")); // upper case
 if(Number.isNaN(pId)) {
 	pId = parseInt(searchParams.get("p")); // lower case
 }
-if(pId >= 1 && pId <= 42) {
+if(pId >= 1 && pId <= 43) {
 	initialId = pId;
 }
 const initialRow = tbody.rows[ initialId - 1 ];
@@ -363,3 +363,4 @@ function setScene( psolidSceneData ) {
   viewer.update({ camera });
 
 }
+
