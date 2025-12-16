@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="111" field="golden" version="7.1">
-  <EditHistory editNumber="552" lastStickyEdit="514">
+  <EditHistory editNumber="575" lastStickyEdit="573">
     <SelectManifestation point="0 0 0 0 0 0"/>
     <ImportColoredMeshJson scale="1 0">{
   "field" : "golden",
@@ -965,22 +965,49 @@
     <SelectManifestation point="0 0 0 0 0 0"/>
     <Delete/>
     <ShowHidden/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="SELECT" originLast="true" panels="IGNORE" struts="IGNORE"/>
+    <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="IGNORE" struts="SELECT"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-5"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-6"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-5" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <Snapshot id="2"/>
+    <ShowHidden/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-6" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <Snapshot id="3"/>
+    <ShowHidden/>
     <DeselectAll/>
   </EditHistory>
   <notes>
-    <page snapshot="0" title="PPP2">
-      <ViewModel distance="65.9488525390625" far="131.897705078125" near="0.16487213969230652" parallel="true" stereoAngle="0.0" width="29.676992416381836">
+    <page snapshot="2" title="Faces">
+      <ViewModel distance="57.33317565917969" far="114.66635131835938" near="0.14333294332027435" parallel="true" stereoAngle="0.0" width="25.799938201904297">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-        <UpDirection x="0.80901700258255" y="0.30901700258255005" z="-0.5"/>
-        <LookDirection x="-0.525731086730957" y="0.0" z="-0.8506507873535156"/>
+        <UpDirection x="0.0" y="1.0" z="0.0"/>
+        <LookDirection x="0.0" y="0.0" z="-1.0"/>
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
-    <page snapshot="1" title="PPP2C">
-      <ViewModel distance="65.9488525390625" far="131.897705078125" near="0.16487213969230652" parallel="true" stereoAngle="0.0" width="29.676992416381836">
+    <page snapshot="3" title="Edges">
+      <ViewModel distance="57.33317565917969" far="114.66635131835938" near="0.14333294332027435" parallel="true" stereoAngle="0.0" width="25.799938201904297">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-        <UpDirection x="0.80901700258255" y="0.30901700258255005" z="-0.5"/>
-        <LookDirection x="-0.525731086730957" y="0.0" z="-0.8506507873535156"/>
+        <UpDirection x="0.0" y="1.0" z="0.0"/>
+        <LookDirection x="0.0" y="0.0" z="-1.0"/>
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
@@ -1040,5 +1067,7 @@
     <Tool copyColors="true" deleteInputs="true" id="tool-2" label="translation 2" selectInputs="false"/>
     <Tool copyColors="true" deleteInputs="false" id="tool-3" label="Centroid" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="true" id="tool-4" label="translation 4" selectInputs="false"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-5" label="Edges" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-6" label="Faces" selectInputs="true"/>
   </Tools>
 </vzome:vZome>
