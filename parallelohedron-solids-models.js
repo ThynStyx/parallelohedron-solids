@@ -1,4 +1,5 @@
 export const models = [
+  //  All Blue = 11
   { id:1 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"AAA", url:"uploads/ThynStyx/AAA.vZome"},
   { id:2 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"ABC", url:"uploads/ThynStyx/AAA.vZome"},
   { id:3 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"ABD", url:"uploads/ThynStyx/AAA.vZome"},
@@ -10,16 +11,16 @@ export const models = [
   { id:9 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"CCC", url:"uploads/ThynStyx/AAA.vZome"},
   { id:10 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"CCD", url:"uploads/ThynStyx/AAA.vZome"},
   { id:11 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"CDD", url:"uploads/ThynStyx/AAA.vZome"},
-  
+  //  All Red = 2
   { id:12 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"LLL1", url:"uploads/ThynStyx/AAA.vZome"},
   { id:13 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"LLL2", url:"uploads/ThynStyx/AAA.vZome"},
-  
+  // All Yellow  = 5
   { id:14 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"OOP", url:"uploads/ThynStyx/OOP.vZome"},
   { id:15 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"OPP1", url:"uploads/ThynStyx/OPP1.vZome"},
   { id:16 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"OPP2", url:"uploads/ThynStyx/OPP2.vZome"},
   { id:17 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"PPP1", url:"uploads/ThynStyx/PPP1.vZome"},
   { id:18 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"PPP2", url:"uploads/ThynStyx/PPP2.vZome"},
-  
+  // Blue & Red  =  16
   { id:19 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"AEG", url:"uploads/ThynStyx/AAA.vZome"},
   { id:20 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"AFG", url:"uploads/ThynStyx/AAA.vZome"},
   { id:21 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"BEE", url:"uploads/ThynStyx/AAA.vZome"},
@@ -36,6 +37,7 @@ export const models = [
   { id:32 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"EGL", url:"uploads/ThynStyx/AAA.vZome"},
   { id:33 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"FGL", url:"uploads/ThynStyx/AAA.vZome"},
   { id:34 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"GGL", url:"uploads/ThynStyx/AAA.vZome"},
+  //  Blue & Yellow = 32
   { id:35 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"AHK", url:"uploads/ThynStyx/AAA.vZome"},
   { id:36 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"AIK", url:"uploads/ThynStyx/AAA.vZome"},
   { id:37 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"AJJ", url:"uploads/ThynStyx/AAA.vZome"},
@@ -51,8 +53,7 @@ export const models = [
   { id:47 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"CII", url:"uploads/ThynStyx/AAA.vZome"},
   { id:48 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"CIJ", url:"uploads/ThynStyx/AAA.vZome"},
   { id:49 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"CJJ", url:"uploads/ThynStyx/AAA.vZome"},
-  { id:50 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"CJK", url:"uploads/ThynStyx/AAA.vZome"},
-  
+  { id:50 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"CJK", url:"uploads/ThynStyx/AAA.vZome"}, 
   { id:51 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"DHI", url:"uploads/ThynStyx/AAA.vZome"},
   { id:52 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"DHJ", url:"uploads/ThynStyx/AAA.vZome"},
   { id:53 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"DIJ", url:"uploads/ThynStyx/AAA.vZome"},
@@ -69,7 +70,7 @@ export const models = [
   { id:64 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"JJP", url:"uploads/ThynStyx/AAA.vZome"},
   { id:65 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"JKP", url:"uploads/ThynStyx/AAA.vZome"},
   { id:66 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"KKO", url:"uploads/ThynStyx/AAA.vZome"},
-  
+  // Red @ Yellow  = 9
   { id:67 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"LMM", url:"uploads/ThynStyx/AAA.vZome"},
   { id:68 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"LMN", url:"uploads/ThynStyx/AAA.vZome"},
   { id:69 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"LNN", url:"uploads/ThynStyx/AAA.vZome"},
@@ -79,8 +80,23 @@ export const models = [
   { id:73 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"MNP2", url:"uploads/ThynStyx/AAA.vZome"},
   { id:74 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"NNO", url:"uploads/ThynStyx/AAA.vZome"},
   { id:75 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"NNP", url:"uploads/ThynStyx/AAA.vZome"},
-  
+  //  Blue & Red & Yellow  = 14
+  { id:76 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"EHM", url:"uploads/ThynStyx/AAA.vZome"},
+  { id:77 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"EJM", url:"uploads/ThynStyx/AAA.vZome"},
+  { id:78 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"EJN", url:"uploads/ThynStyx/AAA.vZome"},
+  { id:79 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"EKN", url:"uploads/ThynStyx/AAA.vZome"},
+  { id:80 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"FIN", url:"uploads/ThynStyx/AAA.vZome"},
+  { id:81 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"FJM", url:"uploads/ThynStyx/AAA.vZome"},
+  { id:82 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"FJN", url:"uploads/ThynStyx/AAA.vZome"},
+  { id:83 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"FKM", url:"uploads/ThynStyx/AAA.vZome"},
+  { id:84 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"GHN", url:"uploads/ThynStyx/AAA.vZome"},
+  { id:85 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"GIM", url:"uploads/ThynStyx/AAA.vZome"},
+  { id:86 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"GJM", url:"uploads/ThynStyx/AAA.vZome"},
+  { id:87 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"GJN", url:"uploads/ThynStyx/AAA.vZome"},
+  { id:88 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"GKM", url:"uploads/ThynStyx/AAA.vZome"},
+  { id:89 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"GKN", url:"uploads/ThynStyx/AAA.vZome"},  
 ]
+
 
 
 
