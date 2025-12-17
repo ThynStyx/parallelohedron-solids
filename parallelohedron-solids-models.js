@@ -27,11 +27,11 @@ export const models = [
   { id:22 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"BEF", url:"uploads/ThynStyx/AAA.vZome"},
   { id:23 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"BFG", url:"uploads/ThynStyx/AAA.vZome"},
   { id:24 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"BGG", url:"uploads/ThynStyx/AAA.vZome"},
-  { id:25 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"CEF", url:"uploads/ThynStyx/AAA.vZome"},
+  { id:25 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"CEF", url:"uploads/ThynStyx/CEF.vZome"},
   { id:26 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"CEG", url:"uploads/ThynStyx/AAA.vZome"},
   { id:27 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"CGG", url:"uploads/ThynStyx/AAA.vZome"},
   { id:28 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"DEE", url:"uploads/ThynStyx/AAA.vZome"},
-  { id:29 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"DEG", url:"uploads/ThynStyx/DEG.vZome"},
+  { id:29 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"DEG", url:"uploads/ThynStyx/AAA.vZome"},
   { id:30 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"DFF", url:"uploads/ThynStyx/AAA.vZome"},
   { id:31 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"DFG", url:"uploads/ThynStyx/AAA.vZome"},
   { id:32 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"EFL", url:"uploads/ThynStyx/AAA.vZome"},
@@ -97,6 +97,7 @@ export const models = [
   { id:89 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"GKM", url:"uploads/ThynStyx/AAA.vZome"},
   { id:90 , field:"Golden", edgescene:"Edges", facescene:"Faces", zometool:"true", title:"GKN", url:"uploads/ThynStyx/GKN.vZome"},  
 ]
+
 
 
 
