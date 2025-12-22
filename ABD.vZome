@@ -139,15 +139,13 @@
     </SelectManifestation>
     <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
     <EndBlock/>
-    <Hide>
-      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
-    </Hide>
+    <Hide/>
     <Snapshot id="3"/>
     <ShowHidden/>
     <DeselectAll/>
   </EditHistory>
   <notes>
-    <page snapshot="2" title="Faces">
+    <page snapshot="2" title="faces">
       <ViewModel distance="108.73126983642578" far="217.46253967285156" near="0.27182817459106445" parallel="false" stereoAngle="0.0" width="48.92906951904297">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
         <UpDirection x="0.0" y="1.0" z="0.0"/>
@@ -155,7 +153,7 @@
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
-    <page snapshot="3" title="Edges">
+    <page snapshot="3" title="edges">
       <ViewModel distance="108.73126983642578" far="217.46253967285156" near="0.27182817459106445" parallel="false" stereoAngle="0.0" width="48.92906951904297">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
         <UpDirection x="0.0" y="1.0" z="0.0"/>
