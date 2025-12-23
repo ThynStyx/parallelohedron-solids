@@ -191,13 +191,17 @@
     <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
     <DeselectAll/>
     <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <Snapshot id="7"/>
     <ShowHidden/>
     <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
     <DeselectAll/>
     <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <Snapshot id="8"/>
     <ShowHidden/>
     <DeselectAll/>
@@ -235,7 +239,7 @@
     <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
   </sceneModel>
   <Viewing>
-    <ViewModel distance="59.6729850769043" far="119.3459701538086" near="0.14918243885040283" parallel="false" stereoAngle="0.0" width="26.85284423828125">
+    <ViewModel distance="113.1686782836914" far="226.33738708496094" near="0.2829216718673706" parallel="false" stereoAngle="0.0" width="50.9259147644043">
       <LookAtPoint x="0.0" y="0.0" z="0.0"/>
       <UpDirection x="0.0" y="1.0" z="0.0"/>
       <LookDirection x="0.0" y="0.0" z="-1.0"/>
