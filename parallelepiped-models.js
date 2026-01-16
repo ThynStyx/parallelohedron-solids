@@ -67,7 +67,6 @@ export const models = [
   { title:"HKP",  url:"uploads/david-hall/HKP.vZome"},
   { title:"IJO",  url:"uploads/david-hall/IJO.vZome"},
   { title:"IJP",  url:"uploads/david-hall/IJP.vZome"},
-  { title:"IKO",  url:"uploads/david-hall/IKO.vZome"},
   { title:"IKP",  url:"uploads/david-hall/IKP.vZome"},
   { title:"JJP",  url:"uploads/david-hall/JJP.vZome"},
   { title:"JKO",  url:"uploads/david-hall/JKO.vZome"},
