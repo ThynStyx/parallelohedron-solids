@@ -5,19 +5,24 @@
   --color-ident: rgb(175, 200, 220); /* same as vZome default background */
   --color-ident-selected: rgb(87, 100, 110); /* each RGB channel is 1/2 of unselected value */
   
-  --color-text: rgb(127, 127, 127);
+  --color-text: rgb(48, 48, 48);
+  --color-text-light: rgb(240, 240, 240);
   --color-text-selected: rgb(240, 240, 240);
-  --color-text-selected-dark: rgb(15, 15, 15);
+  --color-text-selected-dark: rgb(127, 127, 127);
 
   --color-blu-strut: rgb(0, 118, 149);
   --color-yel-strut: rgb(240, 160, 0);
   --color-red-strut: rgb(175, 0, 0);
   --color-grn-strut: rgb(0, 141, 54);
+  --color-org-strut: rgb(235, 82, 0);
+  --color-pur-strut: rgb(155, 54, 211);
 
   --color-blu-panel: rgb(127, 186, 202);
   --color-yel-panel: rgb(247, 207, 127);
   --color-red-panel: rgb(215, 127, 127);
   --color-grn-panel: rgb(127, 198, 154);
+  --color-org-panel: rgb(245, 168, 127);
+  --color-pur-panel: rgb(190, 154, 233);
 
   --checbox-scale: 1.75;
 }
@@ -46,6 +51,7 @@ html, body {
   margin-inline-start: 2rem;
   grid-area: intro;
   max-width: 800px;
+  user-select: text;
 }
 
 .references {
@@ -132,21 +138,29 @@ table {
   width: 100%;
 }
 
-thead th:nth-child(1)   /* id column */
-{
-  text-align: center;
-  width: 4ch;
+thead th:nth-child(1),
+tbody td:nth-child(1) {   /* id column */
+   width: 4ch;
 }
-tbody td:nth-child(1)   /* id column */
-{
-  text-align: right;
+thead th:nth-child(2),
+tbody td:nth-child(2) {   /* name column */
+  text-align: left;
 }
 
+th.faces              /* face-color columns */
+{
+  width: 12ch;        /* 3 * strut-count since colspan = 3 */
+}
+thead th.strut-count  /* blu, red & yel columns */
+{
+  width: 4ch;         /* "Yellow" is the longest header text */
+}
 
 th,
 td {
   border: 1px solid gray;
   padding: 3px;
+  text-align: center;
   white-space: nowrap;
 }
 
@@ -155,20 +169,82 @@ th.ident, td.done {
   font-weight: bold;
 }
 
-th.ident, td.ident {
-  width: 45ch; /* J77 and J78 have 45 characters in their names. No others are longer. */
+/* face color cells */
+td.face-plane-A,
+td.face-plane-E,
+td.face-plane-F,
+td.face-plane-H,
+td.face-plane-I,
+td.face-plane-L,
+td.face-plane-M,
+td.face-plane-N,
+td.face-plane-O
+{
+  background-color: var(--color-blu-panel);
 }
 
-td.todo {
-  background-color: var(--color-todo);
-  font-style: italic;
+td.face-plane-B,
+td.face-plane-C
+{
+  background-color: var(--color-red-panel);
+}
+
+td.face-plane-D
+{
+  background-color: var(--color-yel-panel);
+}
+
+td.face-plane-J,
+td.face-plane-P
+{
+  background-color: var(--color-grn-panel);
+}
+
+td.face-plane-G
+{
+  background-color: var(--color-org-panel);
+}
+
+td.face-plane-K
+{
+  background-color: var(--color-pur-panel);
+}
+
+tr.selected > td.face {
+  filter: brightness(1.1);
+}
+
+/* strut columns */
+td.blu {
+  background-color: var(--color-blu-panel);
+}
+
+td.red {
+  background-color: var(--color-red-panel);
+}
+
+td.yel {
+  background-color: var(--color-yel-panel);
+}
+
+tr.selected > td.blu {
+  background-color: var(--color-blu-strut);
+}
+
+tr.selected > td.red {
+  background-color: var(--color-red-strut);
+}
+
+tr.selected > td.yel {
+  background-color: var(--color-yel-strut);
 }
 
 td.title {
-  background-color: var(--color-yel-panel);
+  color: var(--color-text);
+  background-color: var(--color-text-light);
 }
-tr.selected > td:last-child.title {
-  background-color: var(--color-yel-strut);
+tr.selected > td.title {
+  background-color: var(--color-text-selected-dark);
 }
 
 td.title.zometool {
@@ -212,14 +288,6 @@ th {
 
 td {
   letter-spacing: 1px;
-}
-
-thead, tbody {
-  text-align: left;
-}
-
-tfoot th {
-  text-align: right;
 }
 
 /* graphics and colors */
